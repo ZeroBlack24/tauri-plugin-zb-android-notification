@@ -5,9 +5,9 @@ use crate::Result;
 use crate::ZbAndroidNotificationExt;
 
 #[command]
-pub(crate) async fn ping<R: Runtime>(
+pub(crate) async fn send_notification<R: Runtime>(
     app: AppHandle<R>,
-    payload: PingRequest,
-) -> Result<PingResponse> {
-    app.zb_android_notification().ping(payload)
+    payload: SendNotificationRequest,
+) -> Result<SendNotificationResponse> {
+    app.zb_android_notification().send_notification(payload)
 }

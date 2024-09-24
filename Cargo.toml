@@ -14,4 +14,5 @@ serde = "1.0"
 thiserror = "1.0"
 
 [build-dependencies]
+tauri-build = "2.0.0-rc.12"
 tauri-plugin = { version = "2.0.0-rc.12", features = ["build"] }

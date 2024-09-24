@@ -25,10 +25,10 @@ pub fn init<R: Runtime, C: DeserializeOwned>(
 pub struct ZbAndroidNotification<R: Runtime>(PluginHandle<R>);
 
 impl<R: Runtime> ZbAndroidNotification<R> {
-  pub fn ping(&self, payload: PingRequest) -> crate::Result<PingResponse> {
+  pub fn send_notification(&self, payload: SendNotificationRequest) -> crate::Result<SendNotificationResponse> {
     self
       .0
-      .run_mobile_plugin("ping", payload)
+      .run_mobile_plugin("send_notification", payload)
       .map_err(Into::into)
   }
 }
