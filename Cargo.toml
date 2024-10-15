@@ -1,7 +1,7 @@
 [package]
 name = "tauri-plugin-zb-android-notification"
 version = "0.1.0"
-authors = [ "You" ]
+authors = ["You"]
 description = ""
 edition = "2021"
 rust-version = "1.71"
@@ -12,6 +12,7 @@ links = "tauri-plugin-zb-android-notification"
 tauri = { version = "2.0.0-rc.15" }
 serde = "1.0"
 thiserror = "1.0"
+
 
 [build-dependencies]
 tauri-build = "2.0.0-rc.12"

@@ -3,6 +3,7 @@
 Default permissions for the plugin
 
 - `allow-ping`
+- `allow-send-notification`
 
 ## Permission Table 
 
@@ -12,6 +13,32 @@ Default permissions for the plugin
 <th>Description</th>
 </tr>
 
+
+<tr>
+<td>
+
+`zb-android-notification:allow-allow-send-notification`
+
+</td>
+<td>
+
+Enables the allow-send-notification command without any pre-configured scope.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+`zb-android-notification:deny-allow-send-notification`
+
+</td>
+<td>
+
+Denies the allow-send-notification command without any pre-configured scope.
+
+</td>
+</tr>
 
 <tr>
 <td>
@@ -35,6 +62,32 @@ Enables the ping command without any pre-configured scope.
 <td>
 
 Denies the ping command without any pre-configured scope.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+`zb-android-notification:allow-sendNotification`
+
+</td>
+<td>
+
+Enables the sendNotification command without any pre-configured scope.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+`zb-android-notification:deny-sendNotification`
+
+</td>
+<td>
+
+Denies the sendNotification command without any pre-configured scope.
 
 </td>
 </tr>

@@ -39,12 +39,12 @@ pub fn init<R: Runtime>() -> TauriPlugin<R> {
     .setup(|app, api| {
       #[cfg(mobile)]
       let zb_android_notification = mobile::init(app, api)?;
+
+
       #[cfg(desktop)]
       let zb_android_notification = desktop::init(app, api)?;
 
-      #[cfg(target_os = "android")]
-      let handle = api.register_android_plugin("com.plugin.zb-android-notification", "send_notification")?;
-
+      
       app.manage(zb_android_notification);
       Ok(())
     })

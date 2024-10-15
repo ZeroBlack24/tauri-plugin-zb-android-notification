@@ -295,6 +295,16 @@
       "type": "string",
       "oneOf": [
         {
+          "description": "Enables the allow-send-notification command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-allow-send-notification"
+        },
+        {
+          "description": "Denies the allow-send-notification command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-allow-send-notification"
+        },
+        {
           "description": "Enables the ping command without any pre-configured scope.",
           "type": "string",
           "const": "allow-ping"
@@ -303,6 +313,16 @@
           "description": "Denies the ping command without any pre-configured scope.",
           "type": "string",
           "const": "deny-ping"
+        },
+        {
+          "description": "Enables the sendNotification command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-sendNotification"
+        },
+        {
+          "description": "Denies the sendNotification command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-sendNotification"
         },
         {
           "description": "Enables the send_notification command without any pre-configured scope.",

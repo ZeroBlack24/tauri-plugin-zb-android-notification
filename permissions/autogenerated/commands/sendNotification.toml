@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-sendNotification"
+description = "Enables the sendNotification command without any pre-configured scope."
+commands.allow = ["sendNotification"]
+
+[[permission]]
+identifier = "deny-sendNotification"
+description = "Denies the sendNotification command without any pre-configured scope."
+commands.deny = ["sendNotification"]

@@ -1,4 +1,4 @@
-package com.plugin.zb-android-notification
+package com.plugin.zb_android_notification
 
 import org.junit.Test
 
