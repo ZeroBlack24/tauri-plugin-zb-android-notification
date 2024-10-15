@@ -5,7 +5,7 @@ Default permissions for the plugin
 - `allow-ping`
 - `allow-send-notification`
 
-## Permission Table 
+## Permission Table
 
 <table>
 <tr>
